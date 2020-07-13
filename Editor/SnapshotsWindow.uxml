@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement>
+    <engine:Style src="SnapshotsWindow.uss" />
+    <engine:Label name="selectedInfoHeader" />
+    <engine:Label name="selectedInfoDetails" />
+    <engine:TextField name="newSnapshotTitle" label="Snapshot Title" />
+    <engine:Button name="createSnapshotBtn" text="Create Snapshot" />
+    <engine:VisualElement name="snapshotDetailsContainer" />
+  </engine:VisualElement>
+</engine:UXML>
